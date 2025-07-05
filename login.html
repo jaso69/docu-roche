@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="login.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>RPG Documentación Lilly</title>
+</head>
+<body>
+    <header>
+        <a href="https://www.rpg.es" target="_blank">
+            <img src="./img/logo-rpg.png" alt="">
+        </a>
+    </header>
+    <main>
+        <section id="borde" class="flex flex-col justify-center align-middle border-2 rounded-3xl p-4">
+            <h1 class="text-4xl text-center">Login</h1>
+            <div>
+                <label class="font-bold mr-4">User</label>
+                <input type="text" id="user" class="mt-4 text-blue-200">
+            </div>
+            <div>
+                <label class="font-bold mr-4">Pass</label>
+                <input type="password" id="pass" class="mt-4 text-black">
+            </div>
+            <div>
+                <button id="submit" class="bg-blue-500 p-2 rounded-full mt-4 w-full">Login</button>
+            </div>
+        </section>
+    </main>
+    <script src="./login.js"></script>
+</body>
+</html>

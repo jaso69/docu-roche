@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Documentacion Roche Amadora</title>
+</head>
+<body class="bg-[#222] w-screen">
+    <nav class="flex flex-col">
+        <section>
+            <ul class="flex flex-col p-4 text-center text-white m-2">
+                <li class="flex mb-4 border-2 p-6 rounded-3xl align-middle justify-between">
+                    <a href="/">
+                        <img src="./img/logo-rpg.png" alt="logo-rpg" height="100px" class ="mr-6">
+                    </a>
+                    <a 
+                        href="auditorio.html"
+                        id="podium" 
+                        class="bg-[#09f] text-white p-6 font-bold rounded-full hover:bg-white hover:text-[#09f]"
+                    >
+                        Auditorium Scheme
+                    </a>
+                    
+                    <a 
+                        href="led.html"
+                        id="led" 
+                        class="bg-[#09f] text-white p-6 font-bold rounded-full hover:bg-white hover:text-[#09f]"
+                    >
+                        LED Screen
+                    </a>
+                    <a 
+                        href="manual.html"
+                        id="manual" 
+                        class="bg-[#09f] text-white p-6 font-bold rounded-full hover:bg-white hover:text-[#09f]"
+                    >
+                        Instruction Manuals
+                    </a>
+
+                    <a 
+                        href="software.html"
+                        id="sq" 
+                        class="bg-[#09f] text-white p-6 font-bold rounded-full hover:bg-white hover:text-[#09f]"
+                    >
+                        Software
+                    </a>
+                              
+                    <button id="logout" class="font-bold">Logout</button>
+                </li>
+            </ul>
+        </section>
+    </nav>
+   
+    <main class="flex items-center justify-center gap-4 flex-wrap">
+        <div class="flex flex-col my-6 bg-white shadow-sm border border-slate-200 rounded-lg w-96">
+            <div class="p-4">
+                <h5 class="mb-2 text-slate-800 text-xl font-semibold">
+                Hikvision DS-C60S-S6
+                </h5>
+                <p class="text-slate-600 leading-normal font-light mb-4">
+                Video Wall Controller
+                </p>
+            
+                <a href="./manuals/DS-C60S.pdf" class="rounded-md bg-slate-800 py-2 px-4 mt-6 border border-transparent text-center text-sm text-white hover:shadow-lg focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-slate-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none">
+                Download
+                </a>
+            </div>
+        </div>
+        <div class="flex flex-col my-6 bg-white shadow-sm border border-slate-200 rounded-lg w-96">
+            <div class="p-4">
+                <h5 class="mb-2 text-slate-800 text-xl font-semibold">
+                Kiloview N40/N40 Plus
+                </h5>
+                <p class="text-slate-600 leading-normal font-light mb-4">
+                4K HDMI-to-NDI converter
+                </p>
+            
+                <a href="./manuals/N40.pdf" class="rounded-md bg-slate-800 py-2 px-4 mt-6 border border-transparent text-center text-sm text-white hover:shadow-lg focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-slate-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none">
+                Download
+                </a>
+            </div>
+        </div>
+        <div class="flex flex-col my-6 bg-white shadow-sm border border-slate-200 rounded-lg w-96">
+            <div class="p-4">
+                <h5 class="mb-2 text-slate-800 text-xl font-semibold">
+                Panasonic AW-UE80WEJ
+                </h5>
+                <p class="text-slate-600 leading-normal font-light mb-4">
+                Camera PTZ 4K 50/60p 
+                </p>
+            
+                <a href="./manuals/cam.pdf" class="rounded-md bg-slate-800 py-2 px-4 mt-6 border border-transparent text-center text-sm text-white hover:shadow-lg focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-slate-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none">
+                Download
+                </a>
+            </div>
+        </div>
+        <div class="flex flex-col my-6 bg-white shadow-sm border border-slate-200 rounded-lg w-96">
+            <div class="p-4">
+                <h5 class="mb-2 text-slate-800 text-xl font-semibold">
+                Q-SYS QSC Core 8 Flex
+                </h5>
+                <p class="text-slate-600 leading-normal font-light mb-4">
+                Processor with analog and network I/O
+                </p>
+            
+                <a href="./manuals/core.pdf" class="rounded-md bg-slate-800 py-2 px-4 mt-6 border border-transparent text-center text-sm text-white hover:shadow-lg focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-slate-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none">
+                Download
+                </a>
+            </div>
+        </div>
+        <div class="flex flex-col my-6 bg-white shadow-sm border border-slate-200 rounded-lg w-96">
+            <div class="p-4">
+                <h5 class="mb-2 text-slate-800 text-xl font-semibold">
+                Q-SYS QIO-L4o
+                </h5>
+                <p class="text-slate-600 leading-normal font-light mb-4">
+                Native networked audio I/O solution
+                </p>
+            
+                <a href="./manuals/core.pdf" class="rounded-md bg-slate-800 py-2 px-4 mt-6 border border-transparent text-center text-sm text-white hover:shadow-lg focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-slate-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none">
+                Download
+                </a>
+            </div>
+        </div>
+        <div class="flex flex-col my-6 bg-white shadow-sm border border-slate-200 rounded-lg w-96">
+            <div class="p-4">
+                <h5 class="mb-2 text-slate-800 text-xl font-semibold">
+                Q-SYS QSC LA108
+                </h5>
+                <p class="text-slate-600 leading-normal font-light mb-4">
+                Active Line Array Loudspeakers
+                </p>
+            
+                <a href="./manuals/la108.pdf" class="rounded-md bg-slate-800 py-2 px-4 mt-6 border border-transparent text-center text-sm text-white hover:shadow-lg focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-slate-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none">
+                Download
+                </a>
+            </div>
+        </div>
+        <div class="flex flex-col my-6 bg-white shadow-sm border border-slate-200 rounded-lg w-96">
+            <div class="p-4">
+                <h5 class="mb-2 text-slate-800 text-xl font-semibold">
+                Q-SYS TSC-70-G3
+                </h5>
+                <p class="text-slate-600 leading-normal font-light mb-4">
+                Touch Screen Controller
+                </p>
+            
+                <a href="./manuals/tsc.pdf" class="rounded-md bg-slate-800 py-2 px-4 mt-6 border border-transparent text-center text-sm text-white hover:shadow-lg focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-slate-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none">
+                Download
+                </a>
+            </div>
+        </div>
+        <div class="flex flex-col my-6 bg-white shadow-sm border border-slate-200 rounded-lg w-96">
+            <div class="p-4">
+                <h5 class="mb-2 text-slate-800 text-xl font-semibold">
+                Q-SYS CX-Q 4K4
+                </h5>
+                <p class="text-slate-600 leading-normal font-light mb-4">
+                Network Amplifier with Mic/Line Inputs
+                </p>
+            
+                <a href="./manuals/4k4.pdf" class="rounded-md bg-slate-800 py-2 px-4 mt-6 border border-transparent text-center text-sm text-white hover:shadow-lg focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-slate-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none">
+                Download
+                </a>
+            </div>
+        </div>
+        <div class="flex flex-col my-6 bg-white shadow-sm border border-slate-200 rounded-lg w-96">
+            <div class="p-4">
+                <h5 class="mb-2 text-slate-800 text-xl font-semibold">
+                Q-SYS PL-SUB12
+                </h5>
+                <p class="text-slate-600 leading-normal font-light mb-4">
+                12-inch woofer in a bass-reflex enclosure
+                </p>
+            
+                <a href="./manuals/pl12.pdf" class="rounded-md bg-slate-800 py-2 px-4 mt-6 border border-transparent text-center text-sm text-white hover:shadow-lg focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-slate-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none">
+                Download
+                </a>
+            </div>
+        </div>
+        <div class="flex flex-col my-6 bg-white shadow-sm border border-slate-200 rounded-lg w-96">
+            <div class="p-4">
+                <h5 class="mb-2 text-slate-800 text-xl font-semibold">
+                Q-SYS AD-C6T-HP
+                </h5>
+                <p class="text-slate-600 leading-normal font-light mb-4">
+                2-way ceiling-mounted speaker
+                </p>
+            
+                <a href="./manuals/c6t.pdf" class="rounded-md bg-slate-800 py-2 px-4 mt-6 border border-transparent text-center text-sm text-white hover:shadow-lg focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-slate-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none">
+                Download
+                </a>
+            </div>
+        </div>
+        <div class="flex flex-col my-6 bg-white shadow-sm border border-slate-200 rounded-lg w-96">
+            <div class="p-4">
+                <h5 class="mb-2 text-slate-800 text-xl font-semibold">
+                Q-SYS AD-C6T-HP
+                </h5>
+                <p class="text-slate-600 leading-normal font-light mb-4">
+                2-way ceiling-mounted speaker
+                </p>
+            
+                <a href="./manuals/c6t.pdf" class="rounded-md bg-slate-800 py-2 px-4 mt-6 border border-transparent text-center text-sm text-white hover:shadow-lg focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-slate-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none">
+                Download
+                </a>
+            </div>
+        </div>
+        <div class="flex flex-col my-6 bg-white shadow-sm border border-slate-200 rounded-lg w-96">
+            <div class="p-4">
+                <h5 class="mb-2 text-slate-800 text-xl font-semibold">
+                LEA 164
+                </h5>
+                <p class="text-slate-600 leading-normal font-light mb-4">
+                164 is a 4-channel amplifier
+                </p>
+            
+                <a href="./manuals/lea164.pdf" class="rounded-md bg-slate-800 py-2 px-4 mt-6 border border-transparent text-center text-sm text-white hover:shadow-lg focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-slate-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none">
+                Download
+                </a>
+            </div>
+        </div>
+        <div class="flex flex-col my-6 bg-white shadow-sm border border-slate-200 rounded-lg w-96">
+            <div class="p-4">
+                <h5 class="mb-2 text-slate-800 text-xl font-semibold">
+                Shure Microflex® Wireless
+                </h5>
+                <p class="text-slate-600 leading-normal font-light mb-4">
+                Wireless microphone systems
+                </p>
+            
+                <a href="./manuals/shure.pdf" class="rounded-md bg-slate-800 py-2 px-4 mt-6 border border-transparent text-center text-sm text-white hover:shadow-lg focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-slate-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none">
+                Download
+                </a>
+            </div>
+        </div>
+        <div class="flex flex-col my-6 bg-white shadow-sm border border-slate-200 rounded-lg w-96">
+            <div class="p-4">
+                <h5 class="mb-2 text-slate-800 text-xl font-semibold">
+                FOS DMX OPERATOR
+                </h5>
+                <p class="text-slate-600 leading-normal font-light mb-4">
+                Dmx lighting desk
+                </p>
+            
+                <a href="./manuals/fos.pdf" class="rounded-md bg-slate-800 py-2 px-4 mt-6 border border-transparent text-center text-sm text-white hover:shadow-lg focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-slate-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none">
+                Download
+                </a>
+            </div>
+        </div>
+        <div class="flex flex-col my-6 bg-white shadow-sm border border-slate-200 rounded-lg w-96">
+            <div class="p-4">
+                <h5 class="mb-2 text-slate-800 text-xl font-semibold">
+                PROFILO LED 120 HQS
+                </h5>
+                <p class="text-slate-600 leading-normal font-light mb-4">
+                High power profiler 
+                </p>
+            
+                <a href="./manuals/120hqs.pdf" class="rounded-md bg-slate-800 py-2 px-4 mt-6 border border-transparent text-center text-sm text-white hover:shadow-lg focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-slate-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none">
+                Download
+                </a>
+            </div>
+        </div>
+        <div class="flex flex-col my-6 bg-white shadow-sm border border-slate-200 rounded-lg w-96">
+            <div class="p-4">
+                <h5 class="mb-2 text-slate-800 text-xl font-semibold">
+                SCENA LED 120 HQS
+                </h5>
+                <p class="text-slate-600 leading-normal font-light mb-4">
+                LED-based projector 
+                </p>
+            
+                <a href="./manuals/scena120.pdf" class="rounded-md bg-slate-800 py-2 px-4 mt-6 border border-transparent text-center text-sm text-white hover:shadow-lg focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-slate-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none">
+                Download
+                </a>
+            </div>
+        </div>
+        <div class="flex flex-col my-6 bg-white shadow-sm border border-slate-200 rounded-lg w-96">
+            <div class="p-4">
+                <h5 class="mb-2 text-slate-800 text-xl font-semibold">
+                PROFILO LED 80 CT
+                </h5>
+                <p class="text-slate-600 leading-normal font-light mb-4">
+                The compact LED Profile
+                </p>
+            
+                <a href="./manuals/80ct.pdf" class="rounded-md bg-slate-800 py-2 px-4 mt-6 border border-transparent text-center text-sm text-white hover:shadow-lg focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-slate-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none">
+                Download
+                </a>
+            </div>
+        </div>
+        <div class="flex flex-col my-6 bg-white shadow-sm border border-slate-200 rounded-lg w-96">
+            <div class="p-4">
+                <h5 class="mb-2 text-slate-800 text-xl font-semibold">
+                SCENA LED 80 CT
+                </h5>
+                <p class="text-slate-600 leading-normal font-light mb-4">
+                DMX-controlled LED projector 
+                </p>
+            
+                <a href="./manuals/scena80.pdf" class="rounded-md bg-slate-800 py-2 px-4 mt-6 border border-transparent text-center text-sm text-white hover:shadow-lg focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-slate-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none">
+                Download
+                </a>
+            </div>
+        </div>
+        <div class="flex flex-col my-6 bg-white shadow-sm border border-slate-200 rounded-lg w-96">
+            <div class="p-4">
+                <h5 class="mb-2 text-slate-800 text-xl font-semibold">
+                Netgear GSM4248P
+                </h5>
+                <p class="text-slate-600 leading-normal font-light mb-4">
+                Fully Managed Stackable Switches
+                </p>
+            
+                <a href="./manuals/M4250.pdf" class="rounded-md bg-slate-800 py-2 px-4 mt-6 border border-transparent text-center text-sm text-white hover:shadow-lg focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-slate-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none">
+                Download
+                </a>
+            </div>
+        </div>
+        <div class="flex flex-col my-6 bg-white shadow-sm border border-slate-200 rounded-lg w-96">
+            <div class="p-4">
+                <h5 class="mb-2 text-slate-800 text-xl font-semibold">
+                Tricaster 1 Pro
+                </h5>
+                <p class="text-slate-600 leading-normal font-light mb-4">
+                Powerful production system
+                </p>
+            
+                <a href="./manuals/tricaster.pdf" class="rounded-md bg-slate-800 py-2 px-4 mt-6 border border-transparent text-center text-sm text-white hover:shadow-lg focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-slate-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none">
+                Download
+                </a>
+            </div>
+        </div>
+    </main>
+    
+</body>
+</html>

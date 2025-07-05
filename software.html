@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="asis.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Documentacion Roche Amadora</title>
+</head>
+<body class="bg-[#222] w-screen">
+    <nav class="flex flex-col">
+        <section>
+            <ul class="flex flex-col p-4 text-center text-white m-2">
+                <li class="flex mb-4 border-2 p-6 rounded-3xl align-middle justify-between">
+                    <a href="/">
+                        <img src="./img/logo-rpg.png" alt="logo-rpg" height="100px" class ="mr-6">
+                    </a>
+                    <a 
+                        href="auditorio.html"
+                        id="podium" 
+                        class="bg-[#09f] text-white p-6 font-bold rounded-full hover:bg-white hover:text-[#09f]"
+                    >
+                        Auditorium Scheme
+                    </a>
+                    
+                    <a 
+                        href="led.html"
+                        id="led" 
+                        class="bg-[#09f] text-white p-6 font-bold rounded-full hover:bg-white hover:text-[#09f]"
+                    >
+                        LED Screen
+                    </a>
+                    <a 
+                        href="manual.html"
+                        id="manual"
+                        class="bg-[#09f] text-white p-6 font-bold rounded-full hover:bg-white hover:text-[#09f]"
+                    >
+                        Instruction Manuals
+                    </a>
+
+                    <a 
+                        href="software.html"
+                        id="sq" 
+                        class="bg-[#09f] text-white p-6 font-bold rounded-full hover:bg-white hover:text-[#09f]"
+                    >
+                        Software
+                    </a>
+                              
+                    <button id="logout" class="font-bold">Logout</button>
+                </li>
+            </ul>
+        </section>
+    </nav>
+    <main class="flex items-center justify-center gap-4 flex-wrap">
+        <div class="flex flex-col my-6 bg-white shadow-sm border border-slate-200 rounded-lg w-96">
+            <div class="p-4">
+                <h5 class="mb-2 text-slate-800 text-xl font-semibold">
+                Dante Controller
+                </h5>
+                <p class="text-slate-600 leading-normal font-light mb-4">
+                Primary tool to configure Dante
+                </p>
+            
+                <a href="https://jaweb.es/DanteController.exe" class="rounded-md bg-slate-800 py-2 px-4 mt-6 border border-transparent text-center text-sm text-white hover:shadow-lg focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-slate-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none">
+                Download
+                </a>
+            </div>
+        </div>
+        <div class="flex flex-col my-6 bg-white shadow-sm border border-slate-200 rounded-lg w-96">
+            <div class="p-4">
+                <h5 class="mb-2 text-slate-800 text-xl font-semibold">
+                Q-SYS Designer Software
+                </h5>
+                <p class="text-slate-600 leading-normal font-light mb-4">
+                DSP design software
+                </p>
+            
+                <a href="https://jaweb.es/Q-SYS_Designer_Installer_9.4.8.zip" class="rounded-md bg-slate-800 py-2 px-4 mt-6 border border-transparent text-center text-sm text-white hover:shadow-lg focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-slate-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none">
+                Download
+                </a>
+            </div>
+        </div>
+        <div class="flex flex-col my-6 bg-white shadow-sm border border-slate-200 rounded-lg w-96">
+            <div class="p-4">
+                <h5 class="mb-2 text-slate-800 text-xl font-semibold">
+                Q-SYS Designer Layout
+                </h5>
+                <p class="text-slate-600 leading-normal font-light mb-4">
+                Current Layout design
+                </p>
+            
+                <a href="./software/roche.qsys" class="rounded-md bg-slate-800 py-2 px-4 mt-6 border border-transparent text-center text-sm text-white hover:shadow-lg focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-slate-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none">
+                Download
+                </a>
+            </div>
+        </div>
+        <div class="flex flex-col my-6 bg-white shadow-sm border border-slate-200 rounded-lg w-96">
+            <div class="p-4">
+                <h5 class="mb-2 text-slate-800 text-xl font-semibold">
+                Q-SYS Designer Layout
+                </h5>
+                <p class="text-slate-600 leading-normal font-light mb-4">
+                New Layout design
+                </p>
+            
+                <a href="./software/NewRoche.qsys" class="rounded-md bg-slate-800 py-2 px-4 mt-6 border border-transparent text-center text-sm text-white hover:shadow-lg focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-slate-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none">
+                Download
+                </a>
+            </div>
+        </div>
+    </main>
+    
+</body>
+</html>
